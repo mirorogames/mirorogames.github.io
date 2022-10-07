@@ -217,7 +217,7 @@ html.remodal-is-locked {overflow: hidden;-ms-touch-action: none;touch-action: no
 .link {font-size: 35px;padding: 20px;color: white;opacity: 1;display: none;}
 .down-footer a {border-bottom: 2px solid #181a1b;}
 .down-footer a:hover {border-bottom: 2px solid var(--white)}
-td a {color: var(--blue); border-bottom: 2px solid var(--background);}
+td a {color: var(--blue); border-bottom: 2px solid var(--background); transition: .2s;}
 td a:hover {border-bottom: 2px solid var(--blue);}
 @media screen and (max-width: 600px) {.article img {height: 50%;width: 100%;} .article {height: 500px;width: 475px;}}
 @media screen and (max-width: 550px) {.article img {height: 50%;width: 100%;} .article {height: 400px;width: 375px;} .article_title {font-size: 18px;}.article_description{font-size: 14px;} .article_datetime {font-size: 13px;}}
