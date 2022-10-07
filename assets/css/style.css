@@ -1,3 +1,7 @@
+/* 
+    CSS by levalyukov
+    1.0 (CSSBM)
+*/
 :root {
     /* Palette */
     --background: #181a1b;
@@ -236,7 +240,7 @@ html.remodal-is-locked {overflow: hidden;-ms-touch-action: none;touch-action: no
 .article-footer__link {color: var(--blue);border-bottom: 3px solid var(--background);font-weight: 900;text-decoration: none;transition: .2s;}
 .article-footer__link:hover {border-bottom: 3px solid var(--blue);}
 .article-header {font-family: 'Montserrat', sans-serif;color: var(--color-text-black);font-weight: 1000;font-size: 45px;margin-bottom: -5px;}
-.article-description {font-weight: 400;font-size: 20px; margin-top: 10px;}
+.article-description {font-weight: 400;font-size: 20px; margin-top: 35px;}
 @media screen and (max-width: 600px) {.article-header {font-size: 30px;}}
 @media screen and (max-width: 600px) {.article img {height: 50%;width: 100%;} .article {height: 500px;width: 475px;}}
 @media screen and (max-width: 550px) {.article img {height: 50%;width: 100%;} .article {height: 400px;width: 375px;} .article_title {font-size: 18px;}.article_description{font-size: 14px;} .article_datetime {font-size: 13px;}}
