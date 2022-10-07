@@ -239,7 +239,7 @@ html.remodal-is-locked {overflow: hidden;-ms-touch-action: none;touch-action: no
 .article-footer__  {font-size: 18px;transition: .2s;opacity: .8; margin-top:20px;}
 .article-footer__link {color: var(--blue);border-bottom: 3px solid var(--background);font-weight: 900;text-decoration: none;transition: .2s;}
 .article-footer__link:hover {border-bottom: 3px solid var(--blue);}
-.article-header {font-family: 'Montserrat', sans-serif;color: var(--color-text-black);font-weight: 1000;font-size: 45px;margin-bottom: -5px;}
+.article-header {font-family: 'Nunito', sans-serif;color: var(--color-text-black);font-weight: 1000;font-size: 45px;margin-bottom: -5px;}
 .article-description {font-weight: 400;font-size: 20px; margin-top: 35px;}
 @media screen and (max-width: 600px) {.article-header {font-size: 30px;}}
 @media screen and (max-width: 600px) {.article img {height: 50%;width: 100%;} .article {height: 500px;width: 475px;}}
@@ -251,10 +251,6 @@ html.remodal-is-locked {overflow: hidden;-ms-touch-action: none;touch-action: no
 @media screen and (min-width: 24.375em) {.legal .legal__links {margin-left: auto;}}
 @media screen and (min-width: 40.375em) {.footer__nav > * {flex: 1;}.nav__item--extra {flex-grow: 2;}.footer__addr {flex: 1 0px;}.footer__nav {flex: 2 0px;}}
 @media (max-width: 590px) {.link_pc {display: none;}.link {text-align: center;display: inline-block;padding: 5px;}.dododo {t-align: center;}}
-@keyframes remodal-opening-keyframes {from {opacity: 0;}to {opacity: 1;}}
-@-webkit-keyframes remodal-closing-keyframes {from {opacity: 1;}to {opacity: 0;}}
-@-webkit-keyframes remodal-overlay-closing-keyframes {from {opacity: 1;}to {opacity: 0;}}
-@keyframes remodal-overlay-closing-keyframes {from {opacity: 1;}to {opacity: 0;}}
 @media screen and (max-width: 1260px) {header {justify-content:left;align-content: center;list-style:  none;position: fixed;display:  block;}.navigation-menu {display: none} .toggle-nav-btn {display: block;} .logo-text {text-align: center;} .main-nav {display:block}}
 @media screen and (max-width: 1100px) {.cont {justify-content: center;align-content: center;object-fit: cover;flex-wrap: wrap;display: flex;width: 100%;}
 @media screen and (max-width: 820px) {img#main-img {height: 300px;}}
@@ -263,3 +259,7 @@ html.remodal-is-locked {overflow: hidden;-ms-touch-action: none;touch-action: no
 @media screen and (max-width: 550px) {img#main-img {height: 200px;}}
 @media screen and (max-width: 450px) {img#main-img {height: 150px;}.button-download, .button-download-disabled {padding: 15px 30px 15px 30px;}.button-download {font-size: 5px;}}
 @media screen and (max-width: 350px) {img#main-img {height: 100px;}.button-download, .button-download-disabled {padding: 15px 15px 15px 15px;}}}
+@keyframes remodal-opening-keyframes {from {opacity: 0;}to {opacity: 1;}}
+@-webkit-keyframes remodal-closing-keyframes {from {opacity: 1;}to {opacity: 0;}}
+@-webkit-keyframes remodal-overlay-closing-keyframes {from {opacity: 1;}to {opacity: 0;}}
+@keyframes remodal-overlay-closing-keyframes {from {opacity: 1;}to {opacity: 0;}}
