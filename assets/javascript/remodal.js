@@ -523,7 +523,6 @@
     if (!remodal.$overlay.length) {
       remodal.$overlay = $('<div>').addClass(namespacify('overlay') + ' ' + namespacify('is', STATES.CLOSED)).hide();
       $appendTo.append(remodal.$overlay);
-      document.title = 'Новости | miRorO';
     }
 
     remodal.$bg = $('.' + namespacify('bg')).addClass(namespacify('is', STATES.CLOSED));
@@ -661,7 +660,6 @@
         remodal.$overlay.removeClass(remodal.settings.modifier).hide();
         remodal.$wrapper.hide();
         unlockScreen();
-        document.title = 'Новости | miRorO';
 
         setState(remodal, STATES.CLOSED, false, reason);
       },
