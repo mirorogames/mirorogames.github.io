@@ -58,6 +58,7 @@ html.remodal-is-locked {overflow: hidden;-ms-touch-action: none;touch-action: no
 #game-description-content {margin-top: 25px;font-weight: 400;font-size: 16px; width: 70%; color: rgb(227,225,224);;}
 #article-content {width: 650px;margin: 5vh; color: var(--white)}
 #article-content img {height: 45%;width: 100%;margin-top: 25px;margin-bottom: 25px;border-radius: 10px;user-select: none;display: flex;justify-content: center;align-content: center;object-fit: cover;flex-wrap: wrap;}
+#article-content li {margin-left:30px; margin-bottom:10px; margin-top:10px;}
 .button-no-backgorund {padding: 10px 20px 10px 20px;border: 2px solid var(--blue);background-color: none;border-radius: 10px;line-height: 10px;transition:  .2s;color: var(--blue);}
 .button-no-backgorund:hover {box-shadow: 0px 0px 16px 0px rgb(79, 125, 255, .7);background-color: var(--blue);border: 2px solid var(--blue);color: #fff;}
 .button-no-backgorund:active {background-color: #335dd1; border: 2px solid #335dd1;}
