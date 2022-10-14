@@ -250,17 +250,19 @@ html.remodal-is-locked {overflow: hidden;-ms-touch-action: none;touch-action: no
 @media screen and (max-width: 500px) {.main-nav {width: 40vh;}}
 @media screen and (max-width: 360px) {.main-nav {width: 35vh;}}
 @media screen and (max-width: 330px) {.main-nav {width: 32vh;}}
+@media screen and (max-width: 850px) {.game-description {width: 500px;}}
+@media screen and (max-width: 550px) {.game-description {width: 400px;}}
 @media screen and (min-width: 24.375em) {.legal .legal__links {margin-left: auto;}}
 @media screen and (min-width: 40.375em) {.footer__nav > * {flex: 1;}.nav__item--extra {flex-grow: 2;}.footer__addr {flex: 1 0px;}.footer__nav {flex: 2 0px;}}
 @media (max-width: 590px) {.link_pc {display: none;}.link {text-align: center;display: inline-block;padding: 5px;}.dododo {t-align: center;}}
 @media screen and (max-width: 1260px) {header {justify-content:left;align-content: center;list-style:  none;position: fixed;display:  block;}.navigation-menu {display: none} .toggle-nav-btn {display: block;} .logo-text {text-align: center;} .main-nav {display:block}}
 @media screen and (max-width: 1100px) {.cont {justify-content: center;align-content: center;object-fit: cover;flex-wrap: wrap;display: flex;width: 100%;}
-@media screen and (max-width: 820px) {img#main-img {height: 300px;}}
-@media screen and (max-width: 650px) {img#main-img {height: 250px;}}
+@media screen and (max-width: 820px) {img.main-img {height: 300px;}}
+@media screen and (max-width: 650px) {img.main-img {height: 250px;}}
 @media only screen and (min-width: 641px) {.remodal {max-width: 700px;}}
-@media screen and (max-width: 550px) {img#main-img {height: 200px;}}
-@media screen and (max-width: 450px) {img#main-img {height: 150px;}.button-download, .button-download-disabled {padding: 15px 30px 15px 30px;}.button-download {font-size: 5px;}}
-@media screen and (max-width: 350px) {img#main-img {height: 100px;}.button-download, .button-download-disabled {padding: 15px 15px 15px 15px;}}}
+@media screen and (max-width: 550px) {img.main-img {height: 255px;}}
+@media screen and (max-width: 450px) {img.main-img {height: 200px;}.button-download, .button-download-disabled {padding: 15px 30px 15px 30px;}.button-download {font-size: 20px;}.game-description {width: 350px;}}
+@media screen and (max-width: 350px) {img.main-img {height: 150px;}.button-download, .button-download-disabled {padding: 15px 15px 15px 15px;} .game-description {width: 325px;} td {font-size: 10px;}}}
 @keyframes remodal-opening-keyframes {from {opacity: 0;}to {opacity: 1;}}
 @-webkit-keyframes remodal-closing-keyframes {from {opacity: 1;}to {opacity: 0;}}
 @-webkit-keyframes remodal-overlay-closing-keyframes {from {opacity: 1;}to {opacity: 0;}}
