@@ -244,6 +244,7 @@ html.remodal-is-locked {overflow: hidden;-ms-touch-action: none;touch-action: no
 .article-description {font-weight: 400;font-size: 20px; margin-top: 35px;}
 .article-header-title{font-size:30px; margin-top:20px;}
 .article-header-title-little{font-size:25px; margin-top:20px;}
+.index-img {margin-left: 100px;}
 @media screen and (max-width: 600px) {.article-header {font-size: 30px;}}
 @media screen and (max-width: 600px) {.article img {height: 50%;width: 100%;} .article {height: 500px;width: 475px;}}
 @media screen and (max-width: 550px) {.article img {height: 50%;width: 100%;} .article {height: 400px;width: 375px;} .article_title {font-size: 18px;}.article_description{font-size: 14px;} .article_datetime {font-size: 13px;}}
