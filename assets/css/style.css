@@ -1,6 +1,6 @@
 /* 
     CSS by levalyukov
-    1.1 (MCSS)
+    1.2 (MCSS)
 */
 :root {
     /* Palette */
@@ -20,6 +20,10 @@
 ::-webkit-scrollbar-thumb {background: linear-gradient(to top, var(--blue), var(--purple));border-radius: 50px;}
 ::selection {background-color: var(--blue);color: var(--white);}
 *{font-family:  'Montserrat',  sans-serif;box-sizing:  border-box;padding:  0;margin:  0;}
+svg.tea {--secondary: #fff;}
+svg.tea #teabag {animation: swing 2s infinite;}
+svg.tea #steamL {stroke-dasharray: 13;stroke-dashoffset: 13;animation: steamLarge 2s infinite;}
+svg.tea #steamR {stroke-dasharray: 9;stroke-dashoffset: 9;animation: steamSmall 2s infinite;}
 a{text-decoration:  none;}
 body {background-color: var(--background);}
 header  {background-color: var(--opacity-black);padding:  15px 30px 10px 30px;backdrop-filter: blur(5px);justify-content: center;align-content: center;list-style:  none;position: fixed;display:  flex;width:  100%; z-index: 9;}
@@ -35,6 +39,10 @@ td a {color: var(--blue); border-bottom: 2px solid var(--background); transition
 td a:hover {border-bottom: 2px solid var(--blue);}
 main {display: flex;align-items: center;justify-content: center;color: var(--color-text-black);}
 html.remodal-is-locked {overflow: hidden;-ms-touch-action: none;touch-action: none;}
+#preloader > p {display: none;}
+#preloader_preload {position: fixed;z-index: 99999;top: 0;left: 0;bottom: 0;right: 0;width: 100%;height: 100%;background: var(--light-black);background-size: 125px;min-height: 100vh;display: grid;place-items: center;}
+#preloader.hide-preloader {animation: hidePreloader 1s;}
+#preloader.preloader-hidden {display: none;}
 #progress  {transition:  width 500ms ease-out,  opacity 400ms linear;background:  linear-gradient(to right,  var(--blue),  var(--purple));border-radius:  1px;position:  fixed;z-index:  100;height:  3px;left:  -6px;width:  1%;top:  0;}
 #container {margin-top: 125px;padding: 20px;width: 575px;}
 #title {font-family: 'Nunito', sans-serif;font-weight: 700;margin-left: -5px;font-size: 70px; color: var(--white); text-transform: uppercase;}
@@ -270,3 +278,16 @@ html.remodal-is-locked {overflow: hidden;-ms-touch-action: none;touch-action: no
 @-webkit-keyframes remodal-closing-keyframes {from {opacity: 1;}to {opacity: 0;}}
 @-webkit-keyframes remodal-overlay-closing-keyframes {from {opacity: 1;}to {opacity: 0;}}
 @keyframes remodal-overlay-closing-keyframes {from {opacity: 1;}to {opacity: 0;}}
+@-moz-keyframes swing {50% {transform: rotate(-3deg);}}
+@-webkit-keyframes swing {50% {transform: rotate(-3deg);}}
+@-o-keyframes swing {50% {transform: rotate(-3deg);}}
+@keyframes swing {50% {transform: rotate(-3deg);}}
+@-moz-keyframes steamLarge {0% {stroke-dashoffset: 13;opacity: 0.6;}100% {stroke-dashoffset: 39;opacity: 0;}}
+@-webkit-keyframes steamLarge {0% {stroke-dashoffset: 13;opacity: 0.6;}100% {stroke-dashoffset: 39;opacity: 0;}}
+@-o-keyframes steamLarge {0% {stroke-dashoffset: 13;opacity: 0.6;}100% {stroke-dashoffset: 39;opacity: 0;}}
+@keyframes steamLarge {0% {stroke-dashoffset: 13;opacity: 0.6;}100% {stroke-dashoffset: 39;opacity: 0;}}
+@-moz-keyframes steamSmall {10% {stroke-dashoffset: 9;opacity: 0.6;}80% {stroke-dashoffset: 27;opacity: 0;}100% {stroke-dashoffset: 27;opacity: 0;}}
+@-webkit-keyframes steamSmall {10% {stroke-dashoffset: 9;opacity: 0.6;}80% {stroke-dashoffset: 27;opacity: 0;}100% {stroke-dashoffset: 27;opacity: 0;}}
+@-o-keyframes steamSmall {10% {stroke-dashoffset: 9;opacity: 0.6;}80% {stroke-dashoffset: 27;opacity: 0;}100% {stroke-dashoffset: 27;opacity: 0;}}
+@keyframes steamSmall {10% {stroke-dashoffset: 9;opacity: 0.6;}80% {stroke-dashoffset: 27;opacity: 0;}100% {stroke-dashoffset: 27;opacity: 0;}}
+@keyframes hidePreloader {0% {opacity: 1;}100% {opacity: 0;}}
