@@ -1,6 +1,6 @@
 /* 
     CSS by levalyukov
-    1.0 (CSSBM)
+    1.1 (MCSS)
 */
 :root {
     /* Palette */
@@ -69,9 +69,9 @@ html.remodal-is-locked {overflow: hidden;-ms-touch-action: none;touch-action: no
 .element-animation {opacity: 0;transform: translateY(20px);}
 .element-animation.element-show {opacity: 1;transition: all 1.5s;transform: translateY(0%);}
 .element-animation.element-show:nth-child(3) {opacity: 1; transition: all 3s; transform: translateY(0%);}
-.card-game-view {width: 225px; height: 375px; padding: 13px; border-radius: 5px; color: var(--white);}
+.card-game-view {width: 225px; height: 375px; padding: 13px; border-radius: 10px; color: var(--white);}
 .card-game-view img {height: 250px; width: 200px; border-radius: 5px;}
-.card-game-view:hover {background-color: rgba(82, 82, 82, 0.1); cursor: pointer; border-radius: 15px;}
+.card-game-view:hover {background-color: rgba(82, 82, 82, 0.1); cursor: pointer;}
 .card-game {width: 200px; height: 350px; margin: 25px;}
 .card-game img {height: 275px; width: 225px; border-radius: 5px;}
 .icon {transition: .2s;}
@@ -195,8 +195,8 @@ html.remodal-is-locked {overflow: hidden;-ms-touch-action: none;touch-action: no
 .article_title {color: var(--white);transition: .2s;font-size: 20px;font-family: 'Nunito',sans-serif; }
 .article_description {color: var(--dark-white);font-size: 18px;font-weight: 300;}
 .article_datetime {color: var(--dark-white);font-weight: 300;margin-top: 10px; font-size: 18px;}
-.article_ {height: 300px;width: 270px;margin: 10px 15px 15px 15px;}
-.article_:hover {cursor: pointer;}
+.article_ {height: 270px;width: 290px;margin: 10px 0px 15px 0px; padding: 10px; border-radius: 10px;}
+.article_:hover {cursor: pointer;background-color: rgba(82, 82, 82, 0.1);}
 .article_:hover .article__title {cursor: pointer;color: var(--blue);}
 .article_:hover .readmore {cursor: pointer;color: var(--purple);border-bottom: 3px solid var(--purple);}
 .article_ img {border-radius: 10px;height: 150px;width: 270px;}
