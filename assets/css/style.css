@@ -195,7 +195,7 @@ html.remodal-is-locked {overflow: hidden;-ms-touch-action: none;touch-action: no
 .article_description {color: var(--dark-white);font-size: 18px;font-weight: 300;}
 .article_datetime {color: var(--dark-white);font-weight: 300;margin-top: 10px; font-size: 18px;}
 .article_ {height: 300px;width: 270px;margin: 10px 15px 15px 15px;}
-.article_:hover {cursor: pointer; background-color: rgba(82, 82, 82, 0.1);}
+.article_:hover {cursor: pointer;}
 .article_:hover .article__title {cursor: pointer;color: var(--blue);}
 .article_:hover .readmore {cursor: pointer;color: var(--purple);border-bottom: 3px solid var(--purple);}
 .article_ img {border-radius: 10px;height: 150px;width: 270px;}
