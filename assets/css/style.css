@@ -30,6 +30,7 @@ header ul li a {margin:  15px 0px 15px 0px;color:  var(--dark-white);font-weight
 header ul li a:hover {margin:  15px 0px 15px 0px;color:  var(--white);font-weight:  500; opacity: 1;}
 section {justify-content: center;align-content: center;object-fit: cover;flex-wrap: wrap;display: flex;}
 iframe {height: 300px;width: 600px;}
+br {-ms-user-select: none; -moz-user-select: none; -webkit-user-select: none; user-select: none;}
 td a {color: var(--blue); border-bottom: 2px solid var(--background); transition: .2s;}
 td a:hover {border-bottom: 2px solid var(--blue);}
 main {display: flex;align-items: center;justify-content: center;color: var(--color-text-black);}
