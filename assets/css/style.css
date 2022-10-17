@@ -1,6 +1,6 @@
 /* 
     CSS by levalyukov
-    1.3.1 (MCSS)
+    1.3.6 (MCSS)
 */
 :root {
     /* Palette */
@@ -196,15 +196,15 @@ html.remodal-is-locked {overflow: hidden;-ms-touch-action: none;touch-action: no
 .lt-ie9 .remodal-overlay {background: var(--background);}
 .lt-ie9 .remodal {width: 100%;}
 .article_container {justify-content: center;align-content: center;object-fit: cover;flex-wrap: wrap;display: flex;}
-.article {height: 600px;width: 575px;margin: 10px 15px 15px 15px;}
-.article:hover {cursor: pointer;}
+.article {height: 500px;width: 575px; border-radius: 10px; padding: 25px;}
+.article:hover {cursor: pointer; background-color: rgba(82, 82, 82, 0.1);}
 .article:hover .article_title {cursor: pointer;color: var(--blue);}
 .readmore {color: var(--blue);transition: .2s;border-bottom: 3px solid var(--blue);}
 .article:hover .readmore {cursor: pointer;color: var(--purple);;border-bottom: 3px solid var(--purple);}
-.article img {height: 55%;width: 100%;border-radius: 10px;user-select: none;display: flex;justify-content: center;align-content: center;object-fit: cover;flex-wrap: wrap;}
+.article img {height: 300px;width: 525px;border-radius: 10px;user-select: none;display: flex;justify-content: center;align-content: center;object-fit: cover;flex-wrap: wrap;}
 .article_title {color: var(--white);transition: .2s;font-size: 20px;font-family: 'Nunito',sans-serif; }
 .article_description {color: var(--dark-white);font-size: 18px;font-weight: 300;}
-.article_datetime {color: var(--dark-white);font-weight: 300;margin-top: 10px; font-size: 18px;}
+.article_datetime {color: var(--dark-white);font-weight: 300;margin-top: 10px; font-size: 15px;}
 .article_ {height: 270px;width: 290px;margin: 10px 0px 15px 0px; padding: 10px; border-radius: 10px;}
 .article_:hover {cursor: pointer;background-color: rgba(82, 82, 82, 0.1);}
 .article_:hover .article__title {cursor: pointer;color: var(--blue);}
