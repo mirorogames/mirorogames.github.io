@@ -271,7 +271,7 @@ html.remodal-is-locked {overflow: hidden;-ms-touch-action: none;touch-action: no
 .search-input .search-icon{position: absolute;right: 0px;top: 0px;height: 55px;width: 55px;text-align: center;line-height: 55px;font-size: 20px;color: var(--blue);cursor: pointer;transition: .2s;}
 .search-icon:hover {color: var(--purple)}
 .button-link {background: none;border: 2px solid var(--blue);border-radius: 50px;font-size: 20px;color: var(--blue);padding: 10px;transition: .2s;}
-.button-link:hover {background: var(--blue);color: var(--white);}
+.button-link:hover {background: var(--blue);color: var(--white); box-shadow: 0px 0px 16px 0px rgb(79, 125, 255, .7);}
 @media screen and (max-width: 600px) {.article-header {font-size: 30px;}}
 @media screen and (max-width: 600px) {.article img {height: 50%;width: 100%;} .article {height: 500px;width: 475px;}}
 @media screen and (max-width: 550px) {.article img {height: 50%;width: 100%;} .article {height: 400px;width: 375px;} .article_title {font-size: 18px;}.article_description{font-size: 14px;} .article_datetime {font-size: 13px;}}
