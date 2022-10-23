@@ -4,11 +4,11 @@
 */
 :root {
     /* Palette */
-    --background: rgb(255,249,253);
+    --background: #181a1b;
     --blue: #4F7DFF;
     --purple: #ff7dff;
     --black: #080b16;
-    --white: rgb(1,1,3);
+    --white: #e3e1e0;
     --light-black: #1c1e20;
     --dark-white: #e3e1e0b3;
     --opacity-black: #181a1be6;
