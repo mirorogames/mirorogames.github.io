@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://mirorogames.github.io/assets/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://mirorogames.github.io/assets/css/style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Центр технической поддержки — Miroro Games</title>
+</head>
+<body>
+    <div id="progress"></div>
+<!-- 
+<div style="display:flex;justify-content:center;align-items:center">
+      <div id="preloader">
+        <div id="preloader_preload">
+          <svg class="tea" fill="none" height="48" viewbox="0 0 37 48"width="37" xmlns="http://www.w3.org/2000/svg">
+              <path d="M27.0819 17H3.02508C1.91076 17 1.01376 17.9059 1.0485 19.0197C1.15761 22.5177 1.49703 29.7374 2.5 34C4.07125 40.6778 7.18553 44.8868 8.44856 46.3845C8.79051 46.79 9.29799 47 9.82843 47H20.0218C20.639 47 21.2193 46.7159 21.5659 46.2052C22.6765 44.5687 25.2312 40.4282 27.5 34C28.9757 29.8188 29.084 22.4043 29.0441 18.9156C29.0319 17.8436 28.1539 17 27.0819 17Z"stroke="var(--secondary)" stroke-width=2></path>
+              <path d="M29 23.5C29 23.5 34.5 20.5 35.5 25.4999C36.0986 28.4926 34.2033 31.5383 32 32.8713C29.4555 34.4108 28 34 28 34"stroke=var(--secondary) stroke-width=2></path><path d="M16 25V17H14V25H12C10.3431 25 9 26.3431 9 28V34C9 35.6569 10.3431 37 12 37H18C19.6569 37 21 35.6569 21 34V28C21 26.3431 19.6569 25 18 25H16ZM11 28C11 27.4477 11.4477 27 12 27H18C18.5523 27 19 27.4477 19 28V34C19 34.5523 18.5523 35 18 35H12C11.4477 35 11 34.5523 11 34V28Z"id=teabag clip-rule=evenodd fill=var(--secondary) fill-rule=evenodd></path>
+              <path d="M17 1C17 1 17 4.5 14 6.5C11 8.5 11 12 11 12"stroke=var(--secondary) stroke-width=2 id=steamL stroke-linecap=round stroke-linejoin=round></path>
+              <path d="M21 6C21 6 21 8.22727 19 9.5C17 10.7727 17 13 17 13"stroke=var(--secondary) stroke-width=2 id=steamR stroke-linecap=round stroke-linejoin=round></path>
+          </svg>
+        </div>
+      </div>
+</div>
+-->
+    <!-- pc navigation -->
+    <header>
+        <li><a href="../"><img src="https://mirorogames.github.io/assets/logo-text.svg"></a></li>
+        <ul class="navigation-menu">
+            <li><a href="../feed/">Новости</a></li>
+            <li><a href="../store/">Miroro Store</a></li>
+            <li><a href="../help-center/" style="color:var(--white);opacity: 1;">Помощь</a></li>
+            <li><a href="../contacts/">Контакты</a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+        <div class="toggle-nav-btn">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+    </header>
+    <!-- mobile navigation -->
+          <nav class="main-nav">
+            <ul>
+                <h4><span class="logo--"><a href="https://mirorogames.github.io/"><img src="https://mirorogames.github.io/assets/logo-text.svg"/></a></span></h4>
+                <li><a href="../feed/">Новости</a></li>
+                <li><a href="../store/">Miroro Store</a></li>
+                <li><a href="../help-center/">Помощь</a></li>
+                <li><a href="../contacts/">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+    <!-- content -->
+    <section style="display:flex;justify-content:center;align-items:center; position:fixed;top:0;left:0;bottom:0;right:0;width:100%;height:100%;;min-height:100vh;display:grid;place-items:center">
+        <svg class="tea" fill="none" height="48" viewbox="0 0 37 48"width="37" xmlns="http://www.w3.org/2000/svg">
+            <path d="M27.0819 17H3.02508C1.91076 17 1.01376 17.9059 1.0485 19.0197C1.15761 22.5177 1.49703 29.7374 2.5 34C4.07125 40.6778 7.18553 44.8868 8.44856 46.3845C8.79051 46.79 9.29799 47 9.82843 47H20.0218C20.639 47 21.2193 46.7159 21.5659 46.2052C22.6765 44.5687 25.2312 40.4282 27.5 34C28.9757 29.8188 29.084 22.4043 29.0441 18.9156C29.0319 17.8436 28.1539 17 27.0819 17Z"stroke="var(--secondary)" stroke-width=2></path>
+            <path d="M29 23.5C29 23.5 34.5 20.5 35.5 25.4999C36.0986 28.4926 34.2033 31.5383 32 32.8713C29.4555 34.4108 28 34 28 34"stroke=var(--secondary) stroke-width=2></path><path d="M16 25V17H14V25H12C10.3431 25 9 26.3431 9 28V34C9 35.6569 10.3431 37 12 37H18C19.6569 37 21 35.6569 21 34V28C21 26.3431 19.6569 25 18 25H16ZM11 28C11 27.4477 11.4477 27 12 27H18C18.5523 27 19 27.4477 19 28V34C19 34.5523 18.5523 35 18 35H12C11.4477 35 11 34.5523 11 34V28Z"id=teabag clip-rule=evenodd fill=var(--secondary) fill-rule=evenodd></path>
+            <path d="M17 1C17 1 17 4.5 14 6.5C11 8.5 11 12 11 12"stroke=var(--secondary) stroke-width=2 id=steamL stroke-linecap=round stroke-linejoin=round></path>
+            <path d="M21 6C21 6 21 8.22727 19 9.5C17 10.7727 17 13 17 13"stroke=var(--secondary) stroke-width=2 id=steamR stroke-linecap=round stroke-linejoin=round></path>
+        </svg>
+    </section>
+    <section style="display: none;">
+        <div class="hc-welcome">
+            <h2 id="hc-header" class="element-animation">Задавайте вопросы ищите ответы</h2>
+            <!-- search box -->
+            <div class="wrapper">
+              <div class="search-input">
+                <a href="" target="_blank" hidden></a>
+                <input type="text" placeholder="Введите свою проблему...">
+                <div class="autocom-box">
+                  <!-- here list are inserted from javascript -->
+                </div>
+                <div class="search-icon"><i class="fas fa-search"></i></div>
+              </div>
+            </div>
+        </div>
+    </section>
+    <!-- <h1 id="hc-help" class="element-animation">С чем у вас возникли трудности?</h1>
+     problem game 
+    <section>
+      <a href="categories/stalker-story/">
+        <div class="hc-game-problem element-animation">
+          <img src="https://mirorogames.github.io/assets/stalkerstory.png" alt="">
+        </div>
+      </a>
+    </section>-->
+    <!-- javascript -->
+    <script src="https://kit.fontawesome.com/9aaf1c70ab.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://mirorogames.github.io/assets/javascript/scroll-animation.js"></script>
+    <script src="https://mirorogames.github.io/assets/javascript/preloader.js"></script>
+    <script src="https://mirorogames.github.io/assets/javascript/progress.js"></script>
+    <script src="https://mirorogames.github.io/assets/javascript/search.js"></script>
+    <script src="https://mirorogames.github.io/assets/javascript/menu.js"></script>
+    <script src="https://mirorogames.github.io/assets/javascript/let.js"></script>
+</body>
+</html>
